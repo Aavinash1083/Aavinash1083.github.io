@@ -8,6 +8,7 @@
   <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
 </head>
 <body>
+
   <!-- ===== HEADER ===== -->
   <header class="navbar">
     <div class="container">
@@ -57,12 +58,12 @@
         <div class="skill">Python</div>
         <div class="skill">AWS Quicksight</div>
         <div class="skill">Google BigQuery</div>
-        <div class="skill">Data Cleaning</div>
+        <div class="skill">Google Cloud Storage</div>
+        <div class="skill">GCP Pub/Sub</div>
+        <div class="skill">Pandas</div>
         <div class="skill">Dashboard Development</div>
         <div class="skill">Data Visualization</div>
         <div class="skill">Business Intelligence</div>
-        <div class="skill">KPI</div>
-        <div class="skill">Insight Generation</div>
       </div>
     </div>
   </section>
@@ -75,10 +76,10 @@
 
         <div class="experience-card">
           <h3>Software Programmer</h3>
-          <h4>Virtueworks INC| Jun 2023 – Sept 2025</h4>
+          <h4>Virtueworks INC | Jun 2023 – Sept 2025</h4>
           <ul>
-            <li>Developed 10+ operational dashboards on Tableau and Quicksight, reducing manual reporting time by 20%.</li>
-            <li>Optimized Snowflake queries and procedures that improved dashboard data loading time by 15% for over 500,000 records.</li>
+            <li>Developed 10+ operational dashboards using Tableau and Quicksight, reducing manual reporting by 20%.</li>
+            <li>Optimized Snowflake queries improving dashboard performance for 500k+ records.</li>
           </ul>
         </div>
 
@@ -86,8 +87,8 @@
           <h3>GCP Data Engineer</h3>
           <h4>Document IT | Feb 2023 – May 2023</h4>
           <ul>
-            <li>Implemented AES 256-bit encryption for sensitive customer data, securing over 5,000 user accounts.</li>
-            <li> Documented the Standard Architectural Design Plan (SADP) for a new system that supported the processing of 1 million daily transactions.</li>
+            <li>Implemented AES 256-bit encryption to secure sensitive customer data.</li>
+            <li>Documented architectural design for systems handling 1M daily transactions.</li>
           </ul>
         </div>
 
@@ -95,8 +96,8 @@
           <h3>Python Developer Intern</h3>
           <h4>Tactlabs | Aug 2022 – Feb 2023</h4>
           <ul>
-            <li>Created 3 Python-based data pipelines utilizing GCP APIs to automate daily data ingestion, reducing latency by 5%.</li>
-            <li>Developed a Proof-of-Concept ML classification model in Python that achieved 85% accuracy on a test dataset.</li>
+            <li>Built Python-based data pipelines using GCP APIs for automated ingestion.</li>
+            <li>Developed a POC ML classification model with 85% accuracy.</li>
           </ul>
         </div>
 
@@ -104,8 +105,8 @@
           <h3>System Engineer</h3>
           <h4>Vue Data Technologies | May 2021 – Aug 2022</h4>
           <ul>
-            <li>Designed and maintained 12+ custom dashboards using client data, leading to a 40% increase in client data transparency.</li>
-            <li> Analyzed customer datasets consisting of over 500,000 records to identify key demographic trends for marketing campaigns.</li>
+            <li>Designed and maintained 12+ dashboards improving client data transparency.</li>
+            <li>Analyzed datasets with 500k+ records to extract demographic insights.</li>
           </ul>
         </div>
 
@@ -119,14 +120,43 @@
       <h2>Projects</h2>
       <div class="project-grid">
 
+        <!-- Project 1 -->
         <div class="project-card">
           <h3>Sales Performance Dashboard</h3>
           <p><strong>Tools:</strong> Tableau, SQL, Snowflake</p>
           <p>
-            Designed an interactive dashboard to visualize sales trends and KPIs across regions,
-            reducing manual reporting time by 25%. Integrated SQL joins and aggregations for clean, automated insights.
+            Designed an interactive dashboard to analyze sales trends and KPIs across regions,
+            reducing manual reporting time by 25% through automated SQL-driven insights.
           </p>
-          <a href="https://github.com/Aavinash1083/Sales-Dashboard-Snowflake-Tableau" target="_blank" class="btn">View Project</a>
+          <a href="https://github.com/Aavinash1083/Sales-Dashboard-Snowflake-Tableau"
+             target="_blank" class="btn">View Project</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <h3>End-to-End Data Pipeline using Python & Google Cloud</h3>
+          <p><strong>Tools:</strong> Python, Google Cloud Storage, BigQuery, Pandas</p>
+          <p>
+            Built an end-to-end automated data pipeline that uploads raw CSV sales data to
+            Google Cloud Storage, loads it into BigQuery, creates datasets and tables
+            programmatically, and validates data using Python and Pandas.
+            Implemented secure authentication using Application Default Credentials (ADC).
+          </p>
+          <a href="https://github.com/Aavinash1083/gcp-python-data-pipeline"
+             target="_blank" class="btn">View Project</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <h3>Real-Time Order Processing Pipeline</h3>
+          <p><strong>Tools:</strong> Python, Google Cloud Pub/Sub, BigQuery</p>
+          <p>
+            Developed a real-time streaming data pipeline using Python and Google Cloud Pub/Sub
+            to ingest live order events and store them in BigQuery, enabling near real-time
+            analytics and monitoring.
+          </p>
+          <a href="https://github.com/Aavinash1083/realtime-orders-gcp"
+             target="_blank" class="btn">View Project</a>
         </div>
 
       </div>
@@ -150,5 +180,6 @@
   <footer>
     <p>© 2025 Aavinash | Built with ❤️ using GitHub Pages</p>
   </footer>
+
 </body>
 </html>
